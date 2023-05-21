@@ -6,3 +6,8 @@ eureka:
     defaultZone: http://localhost:8761/eureka/
   instance:
    hostname: localhost
+
+okta:
+ oauth2:
+  issuer: https://dev-30717030.okta.com/oauth2/default
+  audience: api://default
