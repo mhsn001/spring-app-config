@@ -5,7 +5,7 @@ eureka:
    service-url:
     defaultZone: ${EUREKA_SERVER_ADDRESS:http://localhost1:8761/eureka/}
   instance:
-   hostname: localhost
+   prefer-ip-address: true
 
 okta:
  oauth2:
